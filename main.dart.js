@@ -57988,7 +57988,7 @@ q(a,b){return this.anb()},
 anb(){var s,r,q,p,o,n,m,l,k,j,i=this,h=null
 A.c("showAmount "+i.Q)
 s=new A.S().cr().a
-if(s>60)s=500
+if(s>600)s=500
 r=$.bB()
 q=A.bq(new A.aj(20,20))
 p=new A.b6($.b56(),1,B.y)
@@ -66522,11 +66522,11 @@ return A.m($async$$1,r)},
 $S:159}
 A.S.prototype={
 cr(){var s=$.b9().gd8().gad().c.G(t.w).f.a,r=s.a
-if(r>60)r=500
+if(r>600)r=500
 return new A.Y(r,s.b)},
 RP(a,b){var s,r=null,q=$.b9().gd8().gad().c.G(t.w).f
 b=b||!$.bM().x
-if(q.a.a>60){q=A.a1(b?A.j(r,r,B.e,r,r,new A.a0(r,A.FX(r,B.c1,new A.dS("assets/images/bg/cat.jpeg",r,r),r,B.al),r,r,r,r,B.n),r,r,r,r,r,r,r,r):A.j(r,r,B.e,r,r,r,r,r,r,r,r,r,r,r),1)
+if(q.a.a>600){q=A.a1(b?A.j(r,r,B.e,r,r,new A.a0(r,A.FX(r,B.c1,new A.dS("assets/images/bg/cat.jpeg",r,r),r,B.al),r,r,r,r,B.n),r,r,r,r,r,r,r,r):A.j(r,r,B.e,r,r,r,r,r,r,r,r,r,r,r),1)
 s=A.j(r,a,B.e,r,new A.aK(0,500,0,1/0),r,r,r,r,r,r,r,r,r)
 q=A.L(A.b([q,s,A.a1(b?A.j(r,r,B.e,r,r,new A.a0(r,A.FX(r,B.c1,new A.dS("assets/images/bg/landscape.jpeg",r,r),r,B.al),r,r,r,r,B.n),r,r,r,r,r,r,r,r):A.j(r,r,B.e,r,r,r,r,r,r,r,r,r,r,r),1)],t.p),B.i,r,B.j,B.h,r)}else q=a
 return q},
